@@ -1,0 +1,9 @@
+.SideMenu {
+  width: 20%;
+  background-color: #c8c8c8;
+  float: left;
+  margin: 0;
+  border-right: 2px solid #9d9d9d;
+  height: 100%;
+  padding-left: 0px;
+}

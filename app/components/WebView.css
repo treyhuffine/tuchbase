@@ -1,0 +1,8 @@
+.container {
+  float: left;
+  width: calc(80% - 2px);
+  height: 100%;
+}
+.webview {
+  height: 100%;
+}
