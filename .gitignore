@@ -28,6 +28,7 @@ node_modules
 
 # OSX
 .DS_Store
+.jshintc
 
 # App packaged
 dist
