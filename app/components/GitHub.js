@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SideMenu from './SideMenu.jsx';
-import WebView from './WebView.jsx';
+import SideMenu from './SideMenu';
+import WebView from './WebView';
 import styles from './GitHub.css';
 
 

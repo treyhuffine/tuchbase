@@ -1,16 +1,28 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import styles from './Home.css';
+import BookmarkList from './BookmarkList';
 
 
 export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    const bookmarks = [
+      {'name': 'Social', urlList: ['https://www.facebook.com']},
+      {'name': 'Entertainment', urlList: ['https://www.netflix.com']},
+      {'name': 'News', urlList: ['https://www.cnn.com']},
+      {'name': 'Sports', urlList: ['https://www.espn.com']}
+    ];
+    this.state = {
+      bookmarks
+    };
+  }
   render() {
+    console.log(this.state);
     return (
       <div>
         <div className={styles.container}>
-          <h2>Home</h2>
-          <Link to="/counter">to Counter</Link>
-          <Link to="/github">to GitHub</Link>
+          <BookmarkList bookmarks={this.state.bookmarks} />
         </div>
       </div>
     );
