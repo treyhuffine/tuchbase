@@ -4,11 +4,12 @@ import App from './containers/App';
 import HomePage from './containers/HomePage';
 import CounterPage from './containers/CounterPage';
 import GitHubPage from './containers/GitHubPage';
+import WebsitePage from './containers/WebsitePage';
 
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={HomePage} />
     <Route path="/counter" component={CounterPage} />
-    <Route path="/bookmark/:bookmarkUrl" component={GitHubPage} />
+    <Route path="/bookmark/:bookmarkUrl" component={WebsitePage} />
   </Route>
 );

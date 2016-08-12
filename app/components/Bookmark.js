@@ -9,7 +9,7 @@ export default class Bookmark extends Component {
     let url = encodeURIComponent(urlList[0]);
     console.log(name, urlList);
     return (
-      <li>
+      <li onClick={this.props.handlePageChanged}>
         <Link to={`/bookmark/${url}`}>{name}</Link>
       </li>
     );

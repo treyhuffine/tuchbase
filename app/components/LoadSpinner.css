@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+.webview {
+  height: 100%;
+}
+.hidden {
+  display: none;
+}
+.FullWidth {
+  width: calc(80% - 2px);
+  height: 100vh;
+  float: left;
+}
+.PageCenter {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.LoadSpinner {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #297EBC;
+}

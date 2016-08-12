@@ -12,6 +12,7 @@ export default class BookmarkList extends Component {
         {bookmarks.map((bookmark, idx) =>
           <Bookmark key={idx}
             bookmark={bookmark}
+            handlePageChanged={this.props.handlePageChanged}
           />
         )}
       </ul>

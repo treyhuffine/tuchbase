@@ -10,7 +10,7 @@ export default class Home extends Component {
     const bookmarks = [
       {'name': 'Social', urlList: ['https://www.facebook.com']},
       {'name': 'Entertainment', urlList: ['https://www.netflix.com']},
-      {'name': 'News', urlList: ['https://www.cnn.com']},
+      {'name': 'News', urlList: ['http://www.cnn.com']},
       {'name': 'Sports', urlList: ['https://www.espn.com']}
     ];
     this.state = {
