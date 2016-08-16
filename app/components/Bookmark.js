@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-// import styles from './Home.css';
+import styles from './Bookmark.css';
 
 
 export default class Bookmark extends Component {
@@ -9,9 +9,11 @@ export default class Bookmark extends Component {
     let url = encodeURIComponent(urlList[0]);
     console.log(name, urlList);
     return (
-      <li onClick={this.props.handlePageChanged}>
-        <Link to={`/bookmark/${url}`}>{name}</Link>
-      </li>
+      <Link to={`/bookmark/${url}`}>
+        <li className={styles} onClick={this.props.handlePageChanged}>
+          {name}
+        </li>
+      </Link>
     );
   }
 };

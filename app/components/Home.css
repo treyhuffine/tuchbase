@@ -12,3 +12,25 @@
 .container a {
   font-size: 1.4rem;
 }
+.HomeContainer {
+
+}
+.HomeContainer li {
+  text-align: center;
+  border: 1px solid #4b4d4d;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: all .2s ease;
+  transition: all .1s ease;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.HomeContainer li:hover {
+  background-color: #edecec;
+  width: 100%;
+}

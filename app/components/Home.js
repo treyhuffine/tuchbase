@@ -21,7 +21,7 @@ export default class Home extends Component {
     console.log(this.state);
     return (
       <div>
-        <div className={styles.container}>
+        <div className={`col-md-8 col-md-offset-2 card-1 card ${styles.HomeContainer}`}>
           <BookmarkList bookmarks={this.state.bookmarks} />
         </div>
       </div>
