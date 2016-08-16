@@ -10,7 +10,8 @@ export default class HomeArrow extends Component {
       <div>
         <Link to="/">
           <div className={styles.container}>
-              One Dash
+              <img src="static/img/mini-1.png" className={styles.OneImg} />
+              <span className={styles.DashText}>Dash</span>
           </div>
         </Link>
       </div>

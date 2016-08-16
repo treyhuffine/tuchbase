@@ -10,7 +10,7 @@ export default class Bookmark extends Component {
     console.log(name, urlList);
     return (
       <Link to={`/bookmark/${url}`}>
-        <li className={styles} onClick={this.props.handlePageChanged}>
+        <li onClick={this.props.handlePageChanged}>
           {name}
         </li>
       </Link>

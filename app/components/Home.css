@@ -29,6 +29,7 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+  color: #4b4d4d;
 }
 .HomeContainer li:hover {
   background-color: #edecec;
@@ -39,6 +40,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 240px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }

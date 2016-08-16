@@ -21,13 +21,13 @@ export default class SideMenu extends Component {
   }
   render() {
     return (
-      <ul className={styles.SideMenu}>
+      <div className={styles.SideMenu}>
         <HomeArrow />
         <BookmarkList
           bookmarks={this.state.bookmarks}
           handlePageChanged={this.props.handlePageChanged}
         />
-      </ul>
+      </div>
     );
   }
 }
